@@ -6,14 +6,14 @@ A simple Stone Paper Scissors game using React for frontend and Flask for backen
 - Player can choose stone, paper, or scissors using buttons
 - Computer randomly selects stone, paper, or scissors
 - Live score updates
-- Simple and modern user interface
+- Simple user interface
 
 ## Project Structure
 ```text
-stone-paper-scissors-project/
+Stone Paper Scissors/
 ├── flask-server/
 │   └── server.py
-├── cloient/
+├── client/
 │   ├── public/
 │   │   └── images/
 │   │       ├── stone.png
