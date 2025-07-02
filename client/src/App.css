@@ -1,0 +1,97 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.scoreboard {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.player-score {
+  color: #4CAF50;
+}
+
+.computer-score {
+  color: #F44336;
+}
+
+.vs {
+  color: #333;
+}
+
+.game-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.player-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.player-buttons button {
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 20px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-buttons button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.player-buttons button:active {
+  background-color: #d5d5d5;
+  transform: scale(0.98);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.computer-choice-tile {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 30px;
+  width: 250px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.computer-image {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+}
