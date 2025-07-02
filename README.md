@@ -10,7 +10,7 @@ A simple Stone Paper Scissors game using React for frontend and Flask for backen
 
 ## Project Structure
 ```text
-Stone Paper Scissors/
+Stone-Paper-Scissors/
 ├── flask-server/
 │   └── server.py
 ├── client/
